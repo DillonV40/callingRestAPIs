@@ -5,6 +5,7 @@ import com.example.demo.azure.models.TextAnalyticsRequest;
 import com.example.demo.azure.models.TextDocument;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.io.IOException;
 
