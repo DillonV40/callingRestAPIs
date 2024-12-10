@@ -15,4 +15,9 @@ public class SentimentAnalysis {
     private String sentiment;
 
     public SentimentAnalysis(TextDocument document) { this.document = document; }
+
+    public SentimentAnalysis(TextDocument document, String sentiment) {
+        this.document = document;
+        this.sentiment = sentiment;
+    }
 }
